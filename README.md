@@ -1,9 +1,18 @@
 # BBAlertController
 修改系统弹窗 BBAlertController 字体颜色
 
-### 示例图
+### 说明
+
+#### 此方法仅适用iOS8.2+, iOS8.0~iOS8.2能够运行 但修改无效果 iOS8.0以下没有该对象
+
+### 使用示例
+
+#### 直接拖拽项目中 UIAlertController+Color 扩展类,pch文件或全局导入 头文件即可.
+
 ```
-UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"自定义提示的字体颜色" message:@"我是描述信息" preferredStyle:UIAlertControllerStyleActionSheet];
+    使用方式和系统原生一样
+
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"自定义提示的字体颜色" message:@"我是描述信息" preferredStyle:UIAlertControllerStyleActionSheet];
     
     UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil];
     [alertController addAction:cancelAction];
