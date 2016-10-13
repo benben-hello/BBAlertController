@@ -13,6 +13,7 @@
 		EBC6D9E21DAF1C7C00D2C260 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC6D9E01DAF1C7C00D2C260 /* Main.storyboard */; };
 		EBC6D9E41DAF1C7C00D2C260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBC6D9E31DAF1C7C00D2C260 /* Assets.xcassets */; };
 		EBC6D9E71DAF1C7C00D2C260 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC6D9E51DAF1C7C00D2C260 /* LaunchScreen.storyboard */; };
+		EBC6D9F01DAF1CC300D2C260 /* UIAlertController+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC6D9EF1DAF1CC300D2C260 /* UIAlertController+Color.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		EBC6D9E31DAF1C7C00D2C260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBC6D9E61DAF1C7C00D2C260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBC6D9E81DAF1C7C00D2C260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBC6D9EE1DAF1CC300D2C260 /* UIAlertController+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Color.h"; sourceTree = "<group>"; };
+		EBC6D9EF1DAF1CC300D2C260 /* UIAlertController+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Color.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				EBC6D9DB1DAF1C7C00D2C260 /* AppDelegate.m */,
 				EBC6D9DD1DAF1C7C00D2C260 /* ViewController.h */,
 				EBC6D9DE1DAF1C7C00D2C260 /* ViewController.m */,
+				EBC6D9EE1DAF1CC300D2C260 /* UIAlertController+Color.h */,
+				EBC6D9EF1DAF1CC300D2C260 /* UIAlertController+Color.m */,
 				EBC6D9E01DAF1C7C00D2C260 /* Main.storyboard */,
 				EBC6D9E31DAF1C7C00D2C260 /* Assets.xcassets */,
 				EBC6D9E51DAF1C7C00D2C260 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBC6D9F01DAF1CC300D2C260 /* UIAlertController+Color.m in Sources */,
 				EBC6D9DF1DAF1C7C00D2C260 /* ViewController.m in Sources */,
 				EBC6D9DC1DAF1C7C00D2C260 /* AppDelegate.m in Sources */,
 				EBC6D9D91DAF1C7C00D2C260 /* main.m in Sources */,
@@ -271,6 +277,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BBAlertController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "benben.-om.BBAlertController";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -282,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BBAlertController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "benben.-om.BBAlertController";
 				PRODUCT_NAME = "$(TARGET_NAME)";
